@@ -1,0 +1,15 @@
+name: NotVanillaChat
+main: io.siggi.notvanillachat.NotVanillaChat
+version: 1.0
+author: SiggiJG
+description: All Xbox Live Enforcement Team members love it up the ass
+api-version: 1.13
+softdepend: [ CubeCore ]
+commands:
+  me:
+    description: "ME!"
+    usage: /<command> [a me message]
+  whisper:
+    aliases: ["msg", "tell", "w", "m"]
+    description: "Send a private message"
+    usage: /<command> [player] [a me message]
